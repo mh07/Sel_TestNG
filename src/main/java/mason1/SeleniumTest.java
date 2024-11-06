@@ -95,7 +95,7 @@ public class SeleniumTest {
          } else {
              Assert.fail();
          }
-         
+         // close the browser
           driver.close();
 
 
