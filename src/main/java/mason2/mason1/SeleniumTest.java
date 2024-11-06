@@ -1,4 +1,4 @@
-package mason1;
+package mason2.mason1;
 
 import com.hp.lft.report.Reporter;
 import com.hp.lft.reportbuilder.*;
