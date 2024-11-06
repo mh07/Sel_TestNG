@@ -2,28 +2,28 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T16:11:00Z" name="UFTDeveloperSuite" finished-at="2024-11-06T16:11:07Z" duration-ms="7651">
+  <suite started-at="2024-11-06T16:27:21Z" name="UFTDeveloperSuite" finished-at="2024-11-06T16:27:27Z" duration-ms="6498">
     <groups>
     </groups>
-    <test started-at="2024-11-06T16:11:00Z" name="UFTDeveloperTest" finished-at="2024-11-06T16:11:07Z" duration-ms="7651">
+    <test started-at="2024-11-06T16:27:21Z" name="UFTDeveloperTest" finished-at="2024-11-06T16:27:27Z" duration-ms="6498">
       <class name="mason1.SeleniumTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:11:00Z" name="beforeClass" finished-at="2024-11-06T16:11:00Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:27:21Z" name="beforeClass" finished-at="2024-11-06T16:27:21Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:11:00Z" name="test" finished-at="2024-11-06T16:11:07Z" duration-ms="7641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:11:00Z" name="beforeMethod" finished-at="2024-11-06T16:11:00Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:27:21Z" name="beforeMethod" finished-at="2024-11-06T16:27:21Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:11:07Z" name="afterMethod" finished-at="2024-11-06T16:11:07Z" duration-ms="0" status="PASS">
+        <test-method signature="test()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:27:21Z" name="test" finished-at="2024-11-06T16:27:27Z" duration-ms="6489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:27:27Z" name="afterMethod" finished-at="2024-11-06T16:27:27Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:11:07Z" name="afterClass" finished-at="2024-11-06T16:11:07Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:mason1.SeleniumTest@71c8becc]" started-at="2024-11-06T16:27:27Z" name="afterClass" finished-at="2024-11-06T16:27:27Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
