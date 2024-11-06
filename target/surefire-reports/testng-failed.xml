@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UFTDeveloperSuite]" verbose="0">
+  <test name="UFTDeveloperTest(failed)">
+    <classes>
+      <class name="mason1.SeleniumTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- mason1.SeleniumTest -->
+    </classes>
+  </test> <!-- UFTDeveloperTest(failed) -->
+</suite> <!-- Failed suite [UFTDeveloperSuite] -->
