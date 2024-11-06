@@ -1,6 +1,7 @@
 package mason1;
 
 import com.hp.lft.report.Reporter;
+import com.hp.lft.reportbuilder.*;
 import com.hp.lft.report.Status;
 import com.hp.lft.sdk.internal.common.MessageFieldNames;
 import jdk.internal.org.jline.terminal.TerminalBuilder;
@@ -78,16 +79,23 @@ public class SeleniumTest {
                 // Element not found, keep looping
             }
         }
-Thread.sleep(5000);
+        while (true) {
+            try {
+                if (driver.findElement(By.visibleText("BUY NOW")).isDisplayed()) {
+                    break; // Exit the loop if the element is found
+                }
+            } catch (NoSuchElementException e) {
+                // Element not found, keep looping
+            }
+        }
+
          if (driver.findElement(By.visibleText("BUY NOW")).isDisplayed()) {
 
-             Reporter.reportEvent("BUY NOW", "BUY NOW text is visible", Status.Passed);
+             Assert.assertTrue(true);
          } else {
-             Reporter.reportEvent("BUY NOW", "BUY NOW text is NOT visible", Status.Failed);
+             Assert.fail();
          }
-
-
-
+         
           driver.close();
 
 
