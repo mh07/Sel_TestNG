@@ -5,6 +5,7 @@ import com.hp.lft.reportbuilder.*;
 import com.hp.lft.report.Status;
 import com.hp.lft.sdk.internal.common.MessageFieldNames;
 import jdk.internal.org.jline.terminal.TerminalBuilder;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -54,7 +55,9 @@ public class SeleniumTest {
         // Set the path to the ChromeDriver executable
         //System.setProperty("chromedriver.chrome.driver", "C:/Users/demo/Desktop/chromedriver_win32/chromedriver.exe");
 
-        WebDriver driver = new ChromeDriver();
+        RemoteWebDriver driver = new ChromeDriver();
+
+       // WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();
 
